@@ -1,4 +1,4 @@
-import "./Skills.style.css";
+import "./style.css";
 import Tecnologia from "../Tecnologia/index.jsx";
 import { SiPostgresql } from "react-icons/si";
 import { FaGitSquare } from "react-icons/fa";
