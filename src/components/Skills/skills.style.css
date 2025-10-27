@@ -1,0 +1,34 @@
+.container {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+    background: #0a0a0a;
+}
+
+.skill-name {
+    color: #fff;
+}
+
+.skill-tecnologia {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+.box-skill {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 3.5rem
+}
+
+
+@media (min-width: 768px) {
+    .box-skill {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;}
+}

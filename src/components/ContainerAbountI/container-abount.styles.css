@@ -1,0 +1,22 @@
+.container-abount {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
+    height: 150px;
+    color:#fff;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-abount p {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+}
+
+.container-abount .numer {
+    color: #00f5ff;
+}
+
